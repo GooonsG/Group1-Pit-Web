@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import PropTypes from "prop-types";
-import lolo from "../img/lolole.avif";
+import lolole from '../../img/lolole.avif';
 import { Link } from "react-router-dom";
 import ProductDetailsModal from "./ProductDetailsModal";
 
@@ -32,7 +32,7 @@ const ProductCard = ({ image, name, price, originalPrice, description, category}
         <div className="relative flex h-60 overflow-hidden" onClick={handleOpenModal}>
           <img
             className="absolute top-0 right-0 h-full w-full object-cover"
-            src={image || lolo} // Use default image if no image is provided
+            src={image || lolole} // Use default image if no image is provided
             alt={name}
           />
         </div>

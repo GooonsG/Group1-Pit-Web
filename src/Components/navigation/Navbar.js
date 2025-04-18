@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import ModernAppBar from '../Components/UstpNav';
-import Sidebar from '../Components/Sidebar';
+import ModernAppBar from './UstpNav';
+import Sidebar from './Sidebar';
 import { Box } from '@mui/material';
 
 export default function NavBar() {

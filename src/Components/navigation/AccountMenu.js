@@ -10,11 +10,11 @@ import Tooltip from "@mui/material/Tooltip";
 import Logout from "@mui/icons-material/Logout";
 import Settings from "@mui/icons-material/Settings";
 import Profile from "./Profile";
-import iconavatar from "../img/iconavatar.jpg";
+import iconAvatar from '../../img/iconavatar.jpg';
 
 export default function AccountMenu() {
   const [anchorEl, setAnchorEl] = useState(null);
-  const [profileOpen, setProfileOpen] = useState(false); // State for Profile modal
+  const [profileOpen, setProfileOpen] = useState(false); 
   const open = Boolean(anchorEl);
 
   const handleClick = (event) => {
@@ -48,7 +48,7 @@ export default function AccountMenu() {
             aria-haspopup="true"
             aria-expanded={open ? "true" : undefined}
           >
-            <Avatar sx={{ width: 40, height: 40 }} src={iconavatar}></Avatar>
+            <Avatar sx={{ width: 40, height: 40 }} src={iconAvatar}></Avatar>
           </IconButton>
         </Tooltip>
       </Box>

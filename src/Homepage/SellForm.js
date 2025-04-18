@@ -1,5 +1,5 @@
 import React from "react";
-import NavBar from "../Components/Navbar";
+import NavBar from "../Components/navigation/Navbar";
 import ItemListingForm from "../Components/ItemListingForm";
 import { useNavigate } from "react-router-dom";
 

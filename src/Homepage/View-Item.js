@@ -1,10 +1,9 @@
 import React, { useState } from 'react';
-import ModernAppBar from '../Components/UstpNav';
-import Sidebar from '../Components/Sidebar';
+import ModernAppBar from '../Components//navigation/UstpNav';
+import Sidebar from '../Components/navigation/Sidebar';
 import { Box, Grid } from '@mui/material';
-import ProductCard from '../Components/ProductCard';
-import lolo from '../img/lolole.avif';
-import bg2 from '../img/ustpbg.jpg';
+import ProductCard from '../Components/product/ProductCard';
+
 
 export default function ViewItemPage({ products }) {
   const [sidebarOpen, setSidebarOpen] = useState(false);

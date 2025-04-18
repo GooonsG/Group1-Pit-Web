@@ -1,6 +1,6 @@
 import React from "react";
 import { Modal, Box, Typography, Button } from "@mui/material";
-import lolo from "../img/lolole.avif";
+import lolole from '../../img/lolole.avif';
 
 
 const ProductDetailsModal = ({ open, onClose, product }) => {
@@ -25,7 +25,7 @@ const ProductDetailsModal = ({ open, onClose, product }) => {
           {product.name}
         </Typography>
         <img
-          src={product.image || lolo} 
+          src={product.image || lolole} 
           alt={product.name}
           style={{
             width: "100%",
